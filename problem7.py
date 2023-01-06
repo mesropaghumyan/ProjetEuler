@@ -15,11 +15,9 @@ j = 1
 
 while i <= 10001:
 
-    if i == 10001 and is_prime(j) == True:
-        print(j)
+    if i == 10001 and is_prime(j) == True: print(j)
 
     if is_prime(j) == True:
         i += 1
         j += 1
-    else:
-        j += 1
+    else: j += 1
